@@ -1,1 +1,192 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    overflow: hidden;
+}
 
+.navbar {
+    width: 100%;
+    height: 80px;
+}
+
+.navbar h1 {
+    margin: 2px 0px 2px 10px;
+    display: inline-block;
+}
+
+.navbar ul {
+    display: inline-block;
+}
+
+.navbar ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 5px 2px 15px;
+    padding: 5px;
+    font-size: small;
+    color: grey;
+    cursor: pointer;
+}
+
+.navbar button {
+    float: right;
+    margin: 25px 50px 2px 0px;
+    padding: 8px;
+    font-size: smaller;
+}
+
+.register {
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.register:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login {
+    width: 100px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.right-container {
+    width: 55%;
+    height: 550px;
+    margin: 0px 0px 0px 90px;
+    float: left;
+}
+
+.right-container h1 {
+    line-height: 25px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.right-container .main {
+    margin: 80px 0px 0px 70px;
+}
+
+.right-container .sec {
+    margin: 0px 0px 0px 70px;
+}
+
+.right-container p {
+    margin: 50px 0px 0px 70px;
+    font-size: smaller;
+    color: grey;
+    line-height: 22px;
+}
+
+.right-container button {
+    margin: 50px 0px 0px 70px;
+    padding: 8px;
+    width: 140px;
+    font-size: smaller;
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.main-cont-footer {
+    width: 100%;
+    height: 100px;
+    margin: 60px 0px 0px 0px;
+}
+
+.img-cont-1 {
+    display: inline-block;
+    width: 180px;
+    height: 80px;
+    margin: 0px 5px 0px 14px;
+
+}
+
+.img-cont-1 img {
+    width: 100%;
+    height: 80px;
+}
+
+.img-cont-2 {
+    display: inline-block;
+    width: 180px;
+    height: 80px;
+}
+
+.img-cont-2 img {
+    width: 95%;
+    height: 80px;
+}
+
+.img-cont-3 {
+    display: inline-block;
+    width: 180px;
+    height: 80px;
+}
+
+.img-cont-3 img {
+    width: 95%;
+    height: 80px;
+}
+
+.img-cont-4 {
+    display: inline-block;
+    width: 180px;
+    height: 80px;
+}
+
+.img-cont-4 img {
+    width: 95%;
+    height: 80px;
+}
+
+.left-container {
+    width: 30%;
+    height: 550px;
+    margin: 0px 90px 0px 0px;
+    float: right;
+}
+
+.left-container img {
+    width: 90%;
+    height: 550px;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    border: 1px solid white;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: smaller
+}
+
+.footer span {
+    color: blue;
+    font-weight: bold;
+}
